@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onFailure() {
                         Log.d(TAG, "onFailure: no data received");
                     }
-                }, etCityName.getText().toString().trim());
+                }, etCityName.getText().toString().trim()); //Get name from EditText
             }
         });
     }
